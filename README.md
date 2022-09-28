@@ -1,4 +1,4 @@
-# jv-lottery
+# lottery
 
 Let's create a simple lottery that will return balls with a random color and random number.
 
