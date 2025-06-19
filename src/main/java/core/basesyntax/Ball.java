@@ -1,15 +1,14 @@
 package core.basesyntax;
 
 public class Ball {
-    private String color;
-    private int number;
+    private final String color;
+    private final int number;
 
     public Ball(String color, int number) {
         this.color = color;
         this.number = number;
     }
-
-
+    
     @Override
     public String toString() {
         return String.format("Ball color: %s%nNumber: %d", color, number);
